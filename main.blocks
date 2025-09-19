@@ -1,0 +1,52 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Eu@OJ;n|E90`fOueJ1`n">mySprite</variable><variable type="KIND_SpriteKind" id="}mxe1=sm7/i4v7eFBl#D">Player</variable><variable type="KIND_SpriteKind" id="4CCNCy}v3JrlC~zq[1-{">Projectile</variable><variable type="KIND_SpriteKind" id="btqo)-DQEOMS2vYy|DU#">Food</variable><variable type="KIND_SpriteKind" id="~J/XP%?knawd/FbBk03;">Enemy</variable><variable type="KIND_SpriteKind" id=")f7o:bs|?K|P2[PYY@Og">Button</variable></variables><block type="pxt-on-start" id="GjDKGcirum*dRtaY-]%F" x="0" y="0"></block><block type="gamesetbackgroundimage" id="oLKp^dHxJFMPiY;h|^-1" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="219" y="82"><value name="img"><shadow type="background_image_picker" id="Jz`7v^S6tg@]x3atc|xh" disabled-reasons="MANUALLY_DISABLED"><field name="img">assets.image`startButton`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.F]@s[O/$$24J+Li"}}</data></shadow></value></block><block type="variables_set" id="Hp+=N?d[!%NE:7MDY0Vw" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="119" y="243"><field name="VAR" id="Eu@OJ;n|E90`fOueJ1`n">mySprite</field><value name="VALUE"><shadow type="math_number" id="Cv6/ZX)~47kVrYh)`~XQ"><field name="NUM">0</field></shadow><block type="spritescreate" id="$=,uFxUc#-r^JQ2`sf3r" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED"><value name="img"><shadow type="screen_image_picker" id="/iD54nuR43R*#vg.=czn" disabled-reasons="MANUALLY_DISABLED"><field name="img">assets.image`startButton`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.F]@s[O/$$24J+Li"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="BwX[TxvA-^.?_7P%g8fN" disabled-reasons="MANUALLY_DISABLED"><field name="MEMBER">Button</field></shadow></value></block></value></block><block type="variables_set" id="tamYyZZkuH%(b-Oys8Ew" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-198" y="356"><field name="VAR" id="Eu@OJ;n|E90`fOueJ1`n">mySprite</field><value name="VALUE"><shadow type="math_number" id="8`*lsgQk2INHS#?;BJv8"><field name="NUM">0</field></shadow><block type="spritescreate" id="N$R_;DtD6L8K~qgCJv(d" disabled-reasons="MANUALLY_DISABLED"><value name="img"><shadow type="screen_image_picker" id="j?{]1K9HiY.5V3V!6?8}" disabled-reasons="MANUALLY_DISABLED"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+f f f f f f f f f f f f f f f f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f f f f f f f f f f f f f f f f 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="vcV5cU){MMz6G|w7Ik_#" disabled-reasons="MANUALLY_DISABLED"><field name="MEMBER">Button</field></shadow></value></block></value></block><block type="variables_set" id="*d=#aQIA~WgeCP7%pOkC" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-150" y="452"><field name="VAR" id="Eu@OJ;n|E90`fOueJ1`n">mySprite</field><value name="VALUE"><shadow type="math_number" id="a=qDG+,F/!99(uR[cI4?"><field name="NUM">0</field></shadow><block type="spritescreate" id="wD[D~10Q!E^YH2K}++xH" disabled-reasons="MANUALLY_DISABLED"><value name="img"><shadow type="screen_image_picker" id="1/;|h1rYJiy?*Y%l/slI" disabled-reasons="MANUALLY_DISABLED"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+f f f f f f f f f f f f f f f f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f f f f f f f f f f f f f f f f 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="!`me,RVUsp/nr?)^hUQN" disabled-reasons="MANUALLY_DISABLED"><field name="MEMBER">Button</field></shadow></value></block></value></block><block type="variables_set" id="{WKbpw?/{TGat9m,^fE." disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-102" y="548"><field name="VAR" id="Eu@OJ;n|E90`fOueJ1`n">mySprite</field><value name="VALUE"><shadow type="math_number" id="Pl~u-l$$9PtPL11N3rQw"><field name="NUM">0</field></shadow><block type="spritescreate" id="f2U|#tS6X_D#^Muvnqyq" disabled-reasons="MANUALLY_DISABLED"><value name="img"><shadow type="screen_image_picker" id="pe)}(1qwOF,K`l5|ZDx2" disabled-reasons="MANUALLY_DISABLED"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+f f f f f f f f f f f f f f f f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f b b b b b b b b b b b b b b f 
+f f f f f f f f f f f f f f f f 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="8q3fJ:uw^F+X13l]+tyZ" disabled-reasons="MANUALLY_DISABLED"><field name="MEMBER">Button</field></shadow></value></block></value></block></xml>
